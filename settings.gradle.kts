@@ -16,5 +16,5 @@ dependencyResolutionManagement {
 rootProject.name = "Intent Practice App"
 include(":intent-app")
 include(":widgetapp")
-include(":receiverapp")
+include(":receiver-app")
 include(":senderapp")
