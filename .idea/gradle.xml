@@ -11,8 +11,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/receiverapp" />
+            <option value="$PROJECT_DIR$/intent-app" />
+            <option value="$PROJECT_DIR$/receiver-app" />
             <option value="$PROJECT_DIR$/senderapp" />
             <option value="$PROJECT_DIR$/widgetapp" />
           </set>

@@ -17,4 +17,4 @@ rootProject.name = "Intent Practice App"
 include(":intent-app")
 include(":widgetapp")
 include(":receiver-app")
-include(":senderapp")
+include(":sender-app")
