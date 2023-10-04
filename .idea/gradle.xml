@@ -13,8 +13,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/intent-app" />
             <option value="$PROJECT_DIR$/receiver-app" />
-            <option value="$PROJECT_DIR$/senderapp" />
-            <option value="$PROJECT_DIR$/widgetapp" />
+            <option value="$PROJECT_DIR$/sender-app" />
+            <option value="$PROJECT_DIR$/widgeta-pp" />
           </set>
         </option>
       </GradleProjectSettings>
