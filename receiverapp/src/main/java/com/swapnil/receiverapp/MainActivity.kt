@@ -1,5 +1,6 @@
 package com.swapnil.receiverapp
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.Bundle
@@ -17,10 +18,13 @@ import com.swapnil.receiverapp.ui.theme.IntentPracticeAppTheme
 class MainActivity : ComponentActivity() {
 
     private val airplaneModeReceiver = AirplaneModeReceiver()
+    private val customReceiver = CustomReceiver()
+    @SuppressLint("UnspecifiedRegisterReceiverFlag")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         registerReceiver(airplaneModeReceiver, IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED))
+        registerReceiver(customReceiver, IntentFilter("TEST-SIGNAL"))
 
         setContent {
             IntentPracticeAppTheme {
@@ -39,6 +43,7 @@ class MainActivity : ComponentActivity() {
         super.onDestroy()
 
         unregisterReceiver(airplaneModeReceiver)
+        unregisterReceiver(customReceiver)
     }
 }
 
