@@ -1,4 +1,4 @@
-package com.swapnil.nested_navigation_app.ui.theme
+package com.swapnil.nested_navigation_app.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
