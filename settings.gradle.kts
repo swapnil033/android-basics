@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Intent Practice App"
+rootProject.name = "Android Practice"
 include(":intent-app")
 include(":widget-app")
 include(":receiver-app")
@@ -22,3 +22,4 @@ include(":nested-navigation-app")
 include(":uri-type-app")
 include(":content-provider-app")
 include(":foreground-app")
+include(":alarm-demo-app")
